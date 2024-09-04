@@ -23,6 +23,7 @@ void minMax(int arr[], int len, int *min, int * max)
 int main()
 {
     int a[] = {23, 4, 21, 98, 2, 987, 45, 32, 10, 123, 985, 50, 1022, 3, 5, 6, 7, 8};
+    char c[] = {'a', 'b', 'c', 'd'};
     int min, max;
     int len = sizeof(a) / sizeof(a[0]);
     minMax(a, len, &min, &max);
