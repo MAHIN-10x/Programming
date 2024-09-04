@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-void minMax(int arr[], int len, int *min, int * max)
+void minMax(int arr[], int len, int *min, int *max)
 {
      *min = *max = arr[0];
      int i;
