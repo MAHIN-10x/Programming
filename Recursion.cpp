@@ -1,18 +1,22 @@
 #include<iostream>
 using namespace std;
 
-int fun(int n) {
+int fact(int n) {
     if(n == 1) {
         return 1;
     } else {
-        return 1 + fun(n - 1);
+        return n * fact(n-1);
     }
 }
 
 int main()
 {
     
-    cout<<fun(3)<<endl;
+    int n;
+    cout<<"Enter the number: ";
+    cin>>n;
+    cout<<"Factorial of number "<<n<<" is : "<<fact(n)<<endl;
 
     return 0;
+
 }
