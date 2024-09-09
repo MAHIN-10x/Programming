@@ -18,5 +18,5 @@ int decimalToBinary(int n) {
 
 int main()
 {
-    cout<<decimalToBinary(5)<<endl;
+    cout<<decimalToBinary(55)<<endl;
 }
